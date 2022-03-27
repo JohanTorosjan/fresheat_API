@@ -1,6 +1,14 @@
+// module.exports = {
+//   HOST: "localhost",
+//   USER: "root",
+//   PASSWORD: "",
+//   DB: "fresheat_app"
+// };
+
 module.exports = {
-    HOST: "eu-cdbr-west-02.cleardb.net",
-    USER: "bdf71247367774",
-    PASSWORD: "1d42b8b1",
-    DB: "heroku_3a391a1f0dd0ead"
-  };
+  HOST: "us-cdbr-east-05.cleardb.net",
+  USER: "bdb4310d5acdd1",
+  PASSWORD: "52066f01",
+  DB: "heroku_8440058f5dd8f44"
+};
+

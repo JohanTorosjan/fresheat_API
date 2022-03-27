@@ -1,6 +1,5 @@
 const sql = require("./db.js");
 
-// const CryptoJS = require('crypto-js')
 
 const Customer = function(customer) {
     this.id_cust=customer.id_cust;
@@ -8,14 +7,6 @@ const Customer = function(customer) {
     this.pseudo = customer.pseudo;
     this.password = customer.password;
   };
-
-
-  // function decrypt (src) {
-  //   const passphrase = 'BLABLABLA'
-  //   const bytes = CryptoJS.AES.decrypt(src, passphrase)
-  //    const originalText = bytes.toString(CryptoJS.enc.Utf8)
-  //   return originalText
-  //  }
 
 Customer.create = (newCustomer, result) => {
     sql.query("INSERT INTO customer SET ?", newCustomer, (err, res) => {
